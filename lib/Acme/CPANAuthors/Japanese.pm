@@ -3,12 +3,13 @@ package Acme::CPANAuthors::Japanese;
 use strict;
 use warnings;
 
-our $VERSION = '0.071226';
+our $VERSION = '0.080522';
 
 use Acme::CPANAuthors::Register (
     AERDAN    => 'Kiyoshi Aman',
     AGREW     => 'Naoyuki Okumura',
     AHIROSE   => 'Akira HIROSE',
+    AKIHITO   => 'Akihito Takeda',
     AKIRA     => 'Akira Hangai',
     AKOBA     => 'Atsushi Kobayashi',
     AQL       => 'Tetsuya Toyoda',
@@ -34,7 +35,9 @@ use Acme::CPANAuthors::Register (
     FUJIWARA  => 'Fujiwara Shunichiro',
     FUKUDA    => 'Keisuke Fukuda',
     GAOU      => 'Kazuharu Arakawa',
+    GFUJI     => 'Goro Fuji',
     GUNYA     => 'GUNYARA-KUN',
+    HAMANO    => 'Tsukasa Hamano',
     HATA      => 'Masanori HATA',
     HAYASHI   => 'Hiroo HAYASHI',
     HEDWIG    => 'Yusuke Sugiyama',
@@ -44,10 +47,12 @@ use Acme::CPANAuthors::Register (
     HIMAZU    => 'Hideyo Imazu',
     HIO       => 'YAMASHINA Hio',
     HIRATA    => 'HIRATA Yasuyuki',
+    HIRATARA  => 'Masahiro Honma',
     HIRO      => 'hiroshi kitano',
     HIROSE    => 'HIROSE Masaaki',
     HIROYUKI  => 'Hiroyuki Yamanaka',
     HIROYUKIM => 'Yamanaka Hiroyuki',
+    HRYK      => 'Hiroyuki Nakamura',
     HKOBA     => 'KOBAYASI, Hiroaki',
     HOLLY     => 'Akira Horimoto',
     HORIUCHI  => 'Yasuhiro Horiuchi',
@@ -112,6 +117,7 @@ use Acme::CPANAuthors::Register (
     MYUJI     => 'Yuji Maeda',
     NABESHIMA => 'Masaaki NABESHIMA',
     NANZOU    => 'Takaaki Mizuno',
+    NAOKIURAI => 'Naoki URAI',
     NAOYA     => 'Naoya Ito',
     NAOYAT    => 'Naoya "naochan" Tozuka',
     NAOYUKI   => 'Naoyuki Ito',
@@ -134,6 +140,7 @@ use Acme::CPANAuthors::Register (
     RYOCHIN   => 'Okamoto RYO',
     SADAHIRO  => 'SADAHIRO Tomoyuki',
     SASAZUKA  => 'Seiji Sasazuka',
+    SATOH     => 'cho45 (SATOH, Hiroh)',
     SAYANO    => 'Satoru Yano',
     SEKIMURA  => 'Masayoshi Sekimura',
     SEYN      => 'Yasushi Nakajima',
@@ -172,6 +179,7 @@ use Acme::CPANAuthors::Register (
     TOMYHERO  => 'Tomohiro Teranishi',
     TOONA     => 'Naoto Ishikawa',
     TOPIA     => 'Tatuya Noda',
+    TORU      => 'Toru Hisai',
     TRAVAIL   => 'Tomoyuki SAWA',
     TSUKAMOTO => 'Makio Tsukamoto',
     TSUNODA   => 'TSUNODA Kazuya',
@@ -179,6 +187,7 @@ use Acme::CPANAuthors::Register (
     TYPESTER  => 'Daisuke Murase',
     UMEMOTO   => 'Hajimu Umemoto',
     WATANABE  => 'WATANABE Hirofumi',
+    WOREMACX  => 'Wore Macx',
     XOR       => 'Izumi Kawashima',
     XCEZX     => 'Tsuyoshi Maekawa',
     YAMAMOTO  => 'Ryuzo Yamamoto',
@@ -192,9 +201,11 @@ use Acme::CPANAuthors::Register (
     YOSTY     => 'Koji Komatsu',
     YSAS      => 'Yasuhiro Sasama',
     YSUZUKI   => 'Yoshihiro SUZUKI',
+    YTURTLE   => 'Satoshi Azuma',
     YUKINOBU  => 'NAGAYASU Yukinobu',
     YUPUG     => 'Yu Isobe',
     YUSUKE    => 'Yusuke Shibata',
+    YUSUKEBE  => 'Yusuke Wada',
     YUYAW     => 'Yuya Watanabe',
     ZIGOROU   => 'Toru Yamaguchi',
     ZIGUZAGU  => 'Hiroshi Sakai',
@@ -210,7 +221,7 @@ Acme::CPANAuthors::Japanese - We are Japanese CPAN authors
 
 =head1 DESCRIPTION
 
-This class is used to provide a hash of Japanese CPAN author's Pause ID/name to Acme::CPANAuthors.
+This class provides a hash of Japanese CPAN authors' Pause ID/name to Acme::CPANAuthors.
 
 =head1 MAINTENANCE
 

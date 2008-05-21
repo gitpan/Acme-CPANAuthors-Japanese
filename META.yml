@@ -1,17 +1,17 @@
 --- #YAML:1.0
 name:                Acme-CPANAuthors-Japanese
-version:             0.071226
+version:             0.080522
 abstract:            We are Japanese CPAN authors
 license:             perl
 author:              
     - Kenichi Ishigaki <ishigaki@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
-    Acme::CPANAuthors:             0
+    Acme::CPANAuthors:             0.02
     Lingua::JA::Romaji::Valid:     0
     Test::More:                    0.47
-    Test::UseAllModules:           0
+    Test::UseAllModules:           0.09
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
