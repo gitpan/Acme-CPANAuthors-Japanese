@@ -3,7 +3,7 @@ package Acme::CPANAuthors::Japanese;
 use strict;
 use warnings;
 
-our $VERSION = '0.080522';
+our $VERSION = '0.090101';
 
 use Acme::CPANAuthors::Register (
     AERDAN    => 'Kiyoshi Aman',
@@ -12,6 +12,7 @@ use Acme::CPANAuthors::Register (
     AKIHITO   => 'Akihito Takeda',
     AKIRA     => 'Akira Hangai',
     AKOBA     => 'Atsushi Kobayashi',
+    AMARISAN  => 'Ryoji Tanida',
     AQL       => 'Tetsuya Toyoda',
     ARUTEIDO  => 'satoshi ishikawa',
     ASAKURA   => 'ASAKURA Takuji',
@@ -19,6 +20,7 @@ use Acme::CPANAuthors::Register (
     ASKADNA   => 'Shinichiro Aska',
     BANB      => 'ITO Nobuaki',
     BASHI     => 'Toshimasa Ishibashi',
+    BAYASHI   => 'Dai Okabayashi',
     BAYSIDE   => 'Jun Shimizu',
     BOKUTIN   => 'Tomohiro Hosaka',
     BONAR     => 'Nakano Kyohei',
@@ -56,6 +58,7 @@ use Acme::CPANAuthors::Register (
     HKOBA     => 'KOBAYASI, Hiroaki',
     HOLLY     => 'Akira Horimoto',
     HORIUCHI  => 'Yasuhiro Horiuchi',
+    ICHI      => 'Takuya Ichikawa',
     IHARA     => 'Ikuhiro IHARA',
     IKEBE     => 'IKEBE Tomohiro',
     IKEGAMI   => 'ikegami',
@@ -76,13 +79,17 @@ use Acme::CPANAuthors::Register (
     KENJIRO   => 'Kenjiro Hirakawa',
     KENTARO   => 'Kentaro Kuribayashi',
     KIMURA    => 'Takeshi Kimura',
+    KINSAN    => 'Hitoshi Yokozawa',
     KMIYAZAKI => 'Keitaro Miyazaki',
     KNAGANO   => 'Keiichiro Nagano',
     KNOK      => 'NOKUBI Takatsugu',
+    KOBAYASHI => 'Takeshi Kobayashi',
     KOBAYASI  => 'Hiroyuki Kobayasi',
+    KOGA      => 'Seiki Koga',
     KOJUN     => 'Kojun Ueno',
     KOKOGIKO  => 'OHTSUKA Ko-hei',
     KONDO     => 'Yoshiyuki KONDO',
+    KOYACHI   => 'Tsutomu Koyachi',
     KTAKATA   => 'Ken Takata',
     KTAT      => 'Kato Atsushi',
     KUBOTA    => 'Tomohiro KUBOTA',
@@ -122,9 +129,11 @@ use Acme::CPANAuthors::Register (
     NAOYAT    => 'Naoya "naochan" Tozuka',
     NAOYUKI   => 'Naoyuki Ito',
     NARUSE    => 'NARUSE, Yui',
+    NEJIGANE  => 'Yu Nejigane',
     NEKOKAK   => 'Atsushi Kobayashi',
     NEZUMI    => 'IKEDA Soji',
     NISHIGAYA => 'NISHIGAYA, Yuki',
+    NISHIKAWA => 'Kazuhiro Nishikawa',
     NOZZZZZ   => 'Tetsunari Nozaki',
     NTSUTSUMI => 'Naoya Tsutsumi',
     NYARLA    => 'Naoki Okamura',
@@ -139,16 +148,19 @@ use Acme::CPANAuthors::Register (
     RINTARO   => 'Rintaro Ishizaki',
     RYOCHIN   => 'Okamoto RYO',
     SADAHIRO  => 'SADAHIRO Tomoyuki',
+    SASAO     => 'SASAO Takahiro',
     SASAZUKA  => 'Seiji Sasazuka',
     SATOH     => 'cho45 (SATOH, Hiroh)',
     SAYANO    => 'Satoru Yano',
     SEKIMURA  => 'Masayoshi Sekimura',
+    SERA      => 'Kazuhiro Sera',
     SEYN      => 'Yasushi Nakajima',
     SHIBUYA   => 'Kazuhiro Shibuya',
     SHIGETA   => 'Takatsugu Shigeta',
     SHIGIO    => 'Shigio Yamaguchi',
     SHIKONO   => 'Shinji KONO',
     SHIMAZU   => 'Yuki SHIMAZU',
+    SHIMI     => 'Kazuhito Shimizu',
     SHINPEI   => 'HAYASHI, Shinpei',
     SHIRAIWA  => 'Kazuma Shiraiwa',
     SHOT      => 'Shota Takayama',
@@ -166,6 +178,7 @@ use Acme::CPANAuthors::Register (
     TAKKYUN   => 'Takayuki Ikeda',
     TAMAKOTO  => 'Tanaka Makoto',
     TAMASHIRO => 'Yuji Tamashiro',
+    TANABE    => 'Hisao Tanabe',
     TANIGUCHI => 'Koichi Taniguchi',
     TANIMOTO  => 'Satoshi Tanimoto',
     TARO      => 'Daisuke Komatsu',
@@ -183,6 +196,7 @@ use Acme::CPANAuthors::Register (
     TRAVAIL   => 'Tomoyuki SAWA',
     TSUKAMOTO => 'Makio Tsukamoto',
     TSUNODA   => 'TSUNODA Kazuya',
+    TURUGINA  => 'KATOU Akira',
     TYANO     => 'Tatsuhiro YANO',
     TYPESTER  => 'Daisuke Murase',
     UMEMOTO   => 'Hajimu Umemoto',
@@ -225,7 +239,7 @@ This class provides a hash of Japanese CPAN authors' Pause ID/name to Acme::CPAN
 
 =head1 MAINTENANCE
 
-If you are Japanese CPAN author not listed here, come CodeRepos to add your own id/name. If you are listed but are not Japanese (or just don't want to be listed), sorry to bother you but tell me via email, IRC, or RT. I'll remove.
+If you are a Japanese CPAN author not listed here, come CodeRepos to add your own id/name. If you are listed but are not Japanese (or just don't want to be listed), sorry to bother you but tell me via email, IRC, or RT. I'll remove.
 
 =head1 SVN REPOSITORY
 
