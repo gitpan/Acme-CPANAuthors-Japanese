@@ -22,4 +22,4 @@ requires:
   Lingua::JA::Romaji::Valid: 0
   Test::More: 0.47
   Test::UseAllModules: 0.09
-version: 0.130104
+version: 0.130307
